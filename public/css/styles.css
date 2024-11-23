@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background: linear-gradient(135deg, #6a0dad, #b36ae2); /* Gradient background */
+  background: linear-gradient(135deg, #6a0dad, #b36ae2); 
   color: #fff;
   line-height: 1.6;
   margin: 0;
@@ -20,10 +20,10 @@ body {
 
 h2 {
   margin-bottom: 10px; 
-  color: #fff; /* Adjusted for better visibility */
+  color: #fff; 
   font-size: 24px; 
   font-weight: bold;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); /* Text shadow for added depth */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); 
 }
 
 header {
