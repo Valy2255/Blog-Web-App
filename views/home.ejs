@@ -1,0 +1,22 @@
+<section>
+    <h2>All Posts</h2>
+    <% if (posts.length === 0) { %>
+      <p>No posts yet. Create a <a href="/new">new post</a>.</p>
+    <% } else { %>
+      <% posts.forEach(post => { %>
+        <article class="post">
+          <h3><%= post.title %></h3>
+          <p><%= post.content %></p>
+          <div class="actions">
+            <form action="/edit/<%= post.id %>" method="GET">
+              <button type="submit" class="edit-btn">Edit</button>
+            </form>
+            <form action="/delete/<%= post.id %>" method="POST">
+              <button type="submit" class="delete-btn">Delete</button>
+            </form>
+          </div>
+        </article>
+      <% }); %>
+    <% } %>
+  </section>
+  
