@@ -28,8 +28,8 @@ Before running the application, be sure that you have the following installed:
 1. **Clone the Repository**  
    Clone the repository to your local machine using the following commands:  
    ```bash
-   git clone https://github.com/your-username/blog-app.git
-   cd blog-app
+   git clone https://github.com/Valy2255/Blog-Web-App.git
+   cd Blog-Web-App
    ```
 
 2. **Install Dependencies**  
